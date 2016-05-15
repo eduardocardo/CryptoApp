@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CryptoApp</string>
+    <string name="hint_pass">Introduce contraseña</string>
+    <string name="hint_rePass">Repite contraseña</string>
+    <string name="action_settings">Settings</string>
+    <string name="acceso">ACCESO</string>
+    <string name="acceder">Acceder</string>
+    <string name="avisoPass">Por motivos de seguridad
+        su contraseña no almacena en nigún sitio.En caso de no recordarla no podrá ser recuperada</string>
+    <string name="hint_usuario">Introduce usuario</string>
+    <string name="hint_nombreRegistro">Nombre de registro</string>
+    <string name="categorias">Categorías</string>
+    <string name="subcategorías">Subcategorías</string>
+    <string name="addRegistro">Añadir</string>
+    <string name="nuevoRegistro">Añade un nuevo registro</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="copia">COPIA</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="seleccionaIcono">Selecciona un icono</string>
+    <string name="selectIcon">icono</string>
+    <string name="infoIcono">Información sobre el icono</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="ultimaCopia">Última copia de seguridad realizada</string>
+    <string name="fechaUltimaCopia">No hay copia de seguridad</string>
+    <string name="realizarCopia">Realizar copia de seguridad</string>
+    <string name="recuperarDatos">Recuperar datos</string>
+    <string name="textoRecuperarCopia">Recuperarrrrrrrrrr</string>
+    <string name="restaurarCopia">Restaurar copia de seguridad</string>
+    <string name="guardandoRegistro">Guardando registro</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="eliminandoRegistro">Eliminando registro</string>
+    <string name="modificarDator">Modificar datos del registro</string>
+    <string name="msjIcono">Puedes seleccionar uno de los iconos de la lista.\nEn caso de no seleccionar ningún
+    icono se asignará el icono de la aplicación.\nPara eliminar un icono ya seleccionado,pulsa sobre el icono.</string>
+</resources>

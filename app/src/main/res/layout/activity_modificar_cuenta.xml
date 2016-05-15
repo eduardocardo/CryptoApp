@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar_modificarCuenta"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/modificarDator"
+                android:padding="20dp"
+                android:textColor="@color/ColorPrimary"
+                android:textSize="20dp"
+                android:id="@+id/tv_modificarDatos"
+                android:layout_gravity="center"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="45dp">
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/bt_seleccionaIconoModificar"
+                    android:text="@string/selectIcon"
+                    android:background="@drawable/fondo_boton_redondo_primary"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/iv_imageCuentaModificar"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerInParent="true"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/iv_infoModificar"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/info"/>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="50dp"
+                android:paddingLeft="55dp">
+
+                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/android_material_design_spinnerModificar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Categorías"
+                    app:met_floatingLabel="highlight"
+                    app:theme="@style/spinnerHint"
+                    />
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/til_nombreRegistroModificar"
+                    android:layout_centerHorizontal="true"
+                    android:theme="@style/EditTextHint"
+                    android:paddingLeft="-5dp"
+                    android:paddingRight="-5dp"
+                    app:errorTextAppearance="@style/Error"
+                    >
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et_nombreRegistroModificar"
+                        android:hint="@string/hint_nombreRegistro"
+                        android:singleLine="true"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:paddingLeft="-5dp"
+                android:paddingRight="45dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/gris_muy_claro"
+                    android:src="@drawable/user"
+                    android:padding="5dp"
+                    android:id="@+id/iv_usuario"/>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/til_registerUsuarioModificar"
+                    android:layout_centerHorizontal="true"
+                    app:theme="@style/EditTextHint"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et_registerUsuarioModificar"
+                        android:hint="@string/hint_usuario"
+                        android:singleLine="true" />
+
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:paddingRight="45dp"
+                android:paddingLeft="-5dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/gris_muy_claro"
+                    android:src="@drawable/lock2"
+                    android:padding="5dp"/>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/til_registerPassModificar"
+                    android:layout_centerHorizontal="true"
+                    app:theme="@style/EditTextHint"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/et_registerPassModificar"
+                        android:hint="@string/hint_pass"
+                        android:singleLine="true"
+
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/aceptar"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/bt_aceptarModificacion"
+                        android:textColor="@color/ColorText_Icon"
+                        android:layout_toLeftOf="@+id/bt_cancelarModificacion"
+                        android:background="@drawable/fondo_boton_redondo_primary"/>
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cancelar"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/bt_cancelarModificacion"
+                        android:textColor="@color/ColorText_Icon"
+                        android:background="@drawable/fondo_boton_redondo_primary"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

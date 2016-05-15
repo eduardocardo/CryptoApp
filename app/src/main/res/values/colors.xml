@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#607D8B</color>
+    <color name="ColorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#9E9E9E</color>
+    <color name="ColorPrimaryLight">#CFD8DC</color>
+    <color name="ColorText_Icon">#FFFFFF</color>
+    <color name="ColorPrimaryText">#212121</color>
+    <color name="ColorSecundaryText">#727272</color>
+    <color name="ColorDivider">#B6B6B6</color>
+    <color name="blancoSemiTransparente">#80FFFFFF</color>
+    <color name="gris">#5d5d5d</color>
+    <color name="gris_claro">#a3a3a3</color>
+    <color name="gris_muy_claro">#cecece</color>
+    <color name="blanco_perfecto">#ffffff</color>
+    <color name="amarillo">#c9ae4a</color>
+    <color name="gris_oscuro">#3a3a3a</color>
+    <color name="blue_grey_oscuro">#37474F</color>
+
+    <color name="colorFacebook">#3B5997</color>
+    <color name="colorTwitter">#0FA9C1</color>
+    <color name="colorAmazon">#FF9900</color>
+    <color name="colorDropbox">#004491</color>
+    <color name="gmail">#D1C59A</color>
+    <color name="colorYahoo">#7B0099</color>
+    <color name="colorOutlook">#0069C0</color>
+    <color name="colorOrigin">#E76315</color>
+    <color name="colorPaypal">#265697</color>
+    <color name="colorSkype">#3498DB</color>
+    <color name="colorReddit2">#ff5700</color>
+    <color name="colorSteam">#424242</color>
+    <color name="colorVimeo">#4186CD</color>
+    <color name="colorWow">#010104</color>
+    <color name="colorInstagram">#406E95</color>
+    <color name="colorLinkedin">#007BB6</color>
+
+</resources>
